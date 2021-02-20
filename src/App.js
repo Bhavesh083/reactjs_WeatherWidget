@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Exted from './Exted'
 import './App.css'
+
 const api = {
   key:'5afcca12834a8cc45e42a9956a76b069',
   base:'https://api.openweathermap.org/data/2.5/'
