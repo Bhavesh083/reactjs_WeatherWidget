@@ -1,4 +1,5 @@
 Weather_Widget
+
 This application is a gadget used for finding the weather and climatic conditions in a given locality.
 
 Technologies & Tools used :
