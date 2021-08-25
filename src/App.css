@@ -1,26 +1,31 @@
-body{
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
+  background-image: url("http://wallup.net/wp-content/uploads/2015/12/184541-landscape-clouds-rock-mountain-forest-storm-road.jpg");
+  background-repeat: no-repeat;
   box-sizing: border-box;
-background-color: rgba(223, 223, 223, 0.925);
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(223, 223, 223, 0.925);
 }
-.container{
+.container {
   box-shadow: 4px 4px 16px 0px #202020;
   position: absolute;
   top: 33%;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgb(222, 221, 230);
+  background-color: rgba(222, 221, 230, 0.623);
   width: 300px;
   min-height: 200px;
   overflow: hidden;
   padding: 0;
   border-radius: 10px;
 }
-.search{
+.search {
   position: absolute;
   top: 20%;
   left: 0;
@@ -33,27 +38,27 @@ background-color: rgba(223, 223, 223, 0.925);
   height: 50px;
   border-radius: 10px;
 }
-.search input{
+.search input {
   cursor: pointer;
   font-weight: 600;
   font-size: large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 9px;
   border: none;
   outline: none;
   background-color: transparent;
   height: 30px;
-  color: rgb(226, 225, 225);
-  width: 230px;
+  color: rgb(233, 233, 233);
+  width: 80%;
 }
-.search button{
+.search button {
   color: rgb(230, 228, 228);
   cursor: pointer;
   background-color: transparent;
   border: none;
   outline: none;
 }
-.details{
+.details {
   overflow: hidden;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.897);
@@ -61,99 +66,99 @@ background-color: rgba(223, 223, 223, 0.925);
   border-radius: 0px 0px 10px 10px;
   justify-content: space-evenly;
 }
-.details h3{
+.details h3 {
   font-weight: 700;
   font-size: larger;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 8px;
 }
-.temp{
+.temp {
   margin-top: 25px;
   display: flex;
   justify-content: space-evenly;
 }
-.temp h2{
+.temp h2 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px 20px 0px 20px;
   text-align: center;
-  border-radius:6px;
+  border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.507);
 }
-.temp h3{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.temp h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 20px 20px 20px 20px;
   border-radius: 7px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.596);
 }
-.temp i{
+.temp i {
   padding-right: 10px;
 }
-.nc{
+.nc {
   box-shadow: 4px 4px 16px 0px #202020;
   position: absolute;
   top: 33%;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgb(52, 106, 163);
+  background-color: rgba(52, 106, 163, 0.795);
   width: 300px;
   min-height: 200px;
   overflow: hidden;
   padding: 0;
   border-radius: 10px;
 }
-.c{
+.c {
   box-shadow: 4px 4px 16px 0px #202020;
   position: absolute;
   top: 33%;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgb(0, 195, 255);
+  background-color: rgba(0, 195, 255, 0.678);
   width: 300px;
   min-height: 200px;
   overflow: hidden;
   padding: 0;
   border-radius: 10px;
 }
-.nh{
+.nh {
   box-shadow: 4px 4px 16px 0px #202020;
   position: absolute;
   top: 33%;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgb(11, 102, 124);
+  background-color: rgba(11, 101, 124, 0.603);
   width: 300px;
   min-height: 200px;
   overflow: hidden;
   padding: 0;
   border-radius: 10px;
 }
-.h{
+.h {
   box-shadow: 4px 4px 16px 0px #202020;
   position: absolute;
   top: 33%;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgba(175, 140, 100, 0.849);
+  background-color: rgba(175, 140, 100, 0.658);
   width: 300px;
   min-height: 200px;
   overflow: hidden;
   padding: 0;
   border-radius: 10px;
 }
-.bnbnb{
+.bnbnb {
   position: absolute;
   top: 38%;
   left: 14%;
   right: 0;
-  color: rgba(7, 7, 7, 0.712);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(3, 10, 46);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.hghh{
+.hghh {
   position: absolute;
   top: 20%;
   left: 60%;
@@ -161,4 +166,24 @@ background-color: rgba(223, 223, 223, 0.925);
   margin: auto;
   font-size: 6rem;
   color: rgba(23, 23, 61, 0.897);
+}
+@media only screen and (min-width: 550px) {
+  .container {
+    width: 450px;
+  }
+  .search {
+    width: 450px;
+  }
+  .nc {
+    width: 450px;
+  }
+  .c {
+    width: 450px;
+  }
+  .nh {
+    width: 450px;
+  }
+  .h {
+    width: 450px;
+  }
 }

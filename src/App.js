@@ -11,7 +11,7 @@ function App() {
 
   const [det, setDet] = useState({});
   const [place, setPlace] = useState('');
-
+   
   const getPlace = (e) =>{
     setPlace(e.target.value);
   }
@@ -49,5 +49,5 @@ function App() {
   )
 }
 
-export default App
+export default App;
 

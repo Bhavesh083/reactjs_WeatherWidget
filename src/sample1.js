@@ -1,3 +1,6 @@
+// This is backup file, please dont use this.
+// Delete this sample1.js file from ur folder
+
 import React,{useState,useEffect} from 'react'
 
 function Exted(props) {

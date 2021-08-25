@@ -27,4 +27,4 @@ function Exted(props) {
     )
 }
 
-export default Exted
+export default Exted;
