@@ -16,13 +16,11 @@ function App() {
     setPlace(e.target.value);
   }
   const getDet = () =>{
-    setPlace('');
     fetch(`${api.base}weather?q=${place}&units=metric&appid=${api.key}`)
      .then(ans => ans.json())
      .then(fin => {
       setDet(fin);
     });
-
   }
 
   return (
